@@ -3,7 +3,7 @@ PowerShell script for creating base set of directories on a file server.
 
 Allows you to easily create folder structure for fileshares (including but not limited to Users,
 Profiles, Public, RemoteInstall), program installation and database directories on a drive other
-than C:\.
+than the system drive, set ACLs on the folders it creates, and share them out.
 
 Requirements:
 * Run from an elevated PowerShell.
