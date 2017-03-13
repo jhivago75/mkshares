@@ -1,4 +1,4 @@
-# mkshares
+# mkshares.ps1
 PowerShell script for creating base set of directories on a file server.
 
 Allows you to easily create folder structure for fileshares (including but not limited to Users,
@@ -14,4 +14,4 @@ Requirements:
 
 WARNING: If any of the folders specfied already exist backup any custom ACE settings because they will be removed.
     
-For more help, examples and syntax run `PS C:\Get-Help .\mkshares.ps1` or browse the code.
+For more help, examples and syntax run `PS C:\> Get-Help .\mkshares.ps1` or browse the code.
